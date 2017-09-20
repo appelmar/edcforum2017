@@ -18,9 +18,6 @@ x@proxy
 x@proxy@name
 
 # select a small subset
-
-
-
 x.subset = crop(x, extent(758231,761100,7873784,7875355), between = TRUE)
 x.subset
 
@@ -45,7 +42,6 @@ image(y)
 # add to an interactive map
 library(mapview)
 mapView(y[[1]])
-
 
 
 # explicitly run the AFL query and store result as a new array (with spatial reference)
