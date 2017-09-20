@@ -71,6 +71,7 @@ scidbeval(rexec.out, name="S2_MAXDVI")
 copySRS(scidb("S2_MAXDVI"), S2.proxy.subset)
 
 # download result
+Sys.setenv(SCIDB4GDAL_HOST="https://localhost",  SCIDB4GDAL_PORT=8083, SCIDB4GDAL_USER="edc01", SCIDB4GDAL_PASSWD="edc01")
 system("gdal_translate -of 'GTiff' 'SCIDB:array=S2_MAXDVI' 'S2_MAXDVI.tif'")
 
 # if needed, plot as an interactive Leaflet map (with reduced resolution) 

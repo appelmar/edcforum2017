@@ -73,6 +73,7 @@ copySRS(scidb("S2_WATER_CLASSIFIED"), S2.proxy.subset)
 
 
 # download result as a GeoTIFF image using GDAL
+Sys.setenv(SCIDB4GDAL_HOST="https://localhost",  SCIDB4GDAL_PORT=8083, SCIDB4GDAL_USER="edc01", SCIDB4GDAL_PASSWD="edc01")
 system("gdal_translate -of 'GTiff' 'SCIDB:array=S2_WATER_CLASSIFIED' 'S2_WATER_CLASSIFIED.tif'")
 
 # if needed, plot as an interactive Leaflet map (with reduced resolution) 
