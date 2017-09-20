@@ -5,7 +5,7 @@ Slides and material for the presentation and workshop at EDC Forum 2017, Münste
 ## Slides
 
 * [Presentation: Scalable Earth observation Analytics with SciDB](https://github.com/appelmar/edcforum2017/blob/master/slides/slides_workshop.pdf)
-* [Workshop: Processing Earth observation time series with SciDB AND R](https://github.com/appelmar/edcforum2017/blob/master/slides/slides_handson.pdf)
+* [Workshop: Processing Earth observation time series with SciDB and R](https://github.com/appelmar/edcforum2017/blob/master/slides/slides_handson.pdf)
 
 
 ## Example R scripts
