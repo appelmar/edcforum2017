@@ -8,6 +8,9 @@ scidbconnect(host = "localhost", port = 8083, username = "edc01",
              password = "edc01", 
              auth_type = "digest", protocol = "https")
 
+# which spatiotemporal arrays are available 
+scidbst.ls()
+			 
 # create a proxy object
 x = scidbst("S2_OKAVANGO_S")
 x
@@ -52,4 +55,9 @@ scidbsteval(x.subset.ndvi.aggregate, name = array.name)
 
 scidbst(array.name)
 
+# remove array
+scidbrm(array.name, force=T)
+
+# Run AFL queries directly with iquery
+iquery("dimensions(S2_OKAVANGO_S)", return = TRUE)
 

@@ -48,3 +48,12 @@ scidbeval(x.subset.ndvi.aggregate, name = array.name)
 scidb(array.name)
 image(scidb(array.name))
 
+# remove array
+scidbrm(array.name, force=T)
+
+# Run AFL queries directly with iquery
+iquery("dimensions(S2_OKAVANGO_S)", return = TRUE)
+
+
+
+
