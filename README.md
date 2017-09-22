@@ -8,7 +8,7 @@ Slides and material for the presentation and workshop at EDC Forum 2017, Münste
 * [Hands-on tutorial: Processing Earth observation time series with SciDB and R](https://github.com/appelmar/edcforum2017/blob/master/slides/slides_handson.pdf)
 
 
-## Example R scripts
+## Example scripts
 
 * [1_AFL_basics.md](https://github.com/appelmar/edcforum2017/blob/master/scripts/1_AFL_basics.md)
 * [2_SciDB_R.R](https://github.com/appelmar/edcforum2017/blob/master/scripts/2_SciDB_R.R)
