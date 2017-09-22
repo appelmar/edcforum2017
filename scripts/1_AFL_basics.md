@@ -20,7 +20,7 @@ and 10980 x 10980 pixels from 26 images.
 
 
 
-## SciDB Operator Basics
+## Getting started with AFL
 
 To see, which arrays are available within the database, the `list()` operator gives some basic information including array schemas. The schema for a specific array can also be queried with the `show()` operator:
 
